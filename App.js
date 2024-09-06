@@ -2,13 +2,13 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import { Provider } from 'react-redux';
 import { store } from './store';
-import HomeScreen from './screens/HomeScreen';
+import HomeScreen from './src/shared/screens/HomeScreen';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import MapScreen from './screens/MapScreen';
-import BuyScreen from './screens/BuyScreen';
+import MapScreen from './src/shared/screens/MapScreen';
+import BuyScreen from './src/shared/screens/BuyScreen';
 
 export default function App() {
   const Stack = createNativeStackNavigator();

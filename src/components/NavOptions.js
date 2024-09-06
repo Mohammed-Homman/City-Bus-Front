@@ -2,8 +2,8 @@ import React from 'react';
 import { FlatList, Image, TouchableOpacity, Text, View } from 'react-native';
 import tw from 'twrnc';
 
-import FindBus from '../assets/image1.jpg';
-import BuySubscription from '../assets/image2.webp';
+import FindBus from '../../assets/image1.jpg';
+import BuySubscription from '../../assets/image2.webp';
 import { Icon } from '@rneui/base';
 import { useNavigation } from '@react-navigation/native';
 
